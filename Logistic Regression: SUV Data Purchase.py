@@ -2,6 +2,7 @@
 
 This dataset reveals information on whether an SUV is purchased or not. The goal is to create a logistic regression model and evaluate if the model corectly predicts the purchase of an SUV by an individual.
 
+
 #import essential libraries
 
 #Basics
@@ -19,11 +20,14 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import ConfusionMatrixDisplay, confusion_matrix, classification_report, recall_score
 from sklearn.preprocessing import StandardScaler
 
+
 #import the dataset
 suv_data = pd.read_csv('suv_data.csv')
 
+
 #display the data
 suv_data
+
 
 Exploratory Data Analysis
 
